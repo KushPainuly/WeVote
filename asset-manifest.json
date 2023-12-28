@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hote-Website/static/css/main.ec195ea7.css",
+    "main.js": "/Hote-Website/static/js/main.f1b80c92.js",
+    "static/media/hand-with-voting-sign-of-india-vector-2041705.jpg": "/Hote-Website/static/media/hand-with-voting-sign-of-india-vector-2041705.956b72de670c27c3eb05.jpg",
+    "static/media/letsvote.png": "/Hote-Website/static/media/letsvote.2b7182e20137ba7c6564.png",
+    "index.html": "/Hote-Website/index.html",
+    "main.ec195ea7.css.map": "/Hote-Website/static/css/main.ec195ea7.css.map",
+    "main.f1b80c92.js.map": "/Hote-Website/static/js/main.f1b80c92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec195ea7.css",
+    "static/js/main.f1b80c92.js"
+  ]
+}
