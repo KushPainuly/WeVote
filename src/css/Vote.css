@@ -1,0 +1,249 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+b {
+    color: grey;
+}
+
+.content {
+    padding-top: 60px;
+}
+
+.content2 {
+    padding-top: 80px;
+}
+
+.content3 {
+    padding-top: 180px;
+}
+
+.backgound {
+    background-image: url('https://img.freepik.com/premium-photo/lot-hand-raised-up-air-isolated-white-background-raise-your-hand-vote-majority-votes-election-leader-country_208349-1149.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.back {
+    background-image: url('https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/w/z/g/small-spos8980-poster-bjp-logo-bhartiya-janta-party-with-modi-sl-original-imaghs5tcbe3ht2d.jpeg?q=90');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back2 {
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/430/623/desktop-wallpaper-congress-party-indian-national-congress-thumbnail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back3 {
+    background-image: url('https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/kejri_1200x768.jpeg?VersionId=rczeErkCRn5dJhBgT.hM618FmT14pwaz&size=690:388');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    padding: 90px 0px;
+    text-align: center;
+    background: #fff;
+    color: black;
+    box-shadow: 0px 0px 14px #888888;
+    opacity: 0.6;
+    font-size: x-large;
+}
+
+.left2 {
+    padding: 90px 0px;
+    text-align: center;
+    background: #fff;
+    color: black;
+    box-shadow: 0px 0px 14px #888888;
+    opacity: 0.6;
+
+}
+
+/*Howitworks style*/
+.section-header-style-2 {
+    margin: 0 auto;
+    max-width: 660px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.section-header-style-2 .sub-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.section-header-style-2 .header-title {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.how-it-works .how-it-works-box {
+    text-align: center;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+
+.how-it-works .how-it-works-box .how-it-works-box-inner {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.how-it-works .how-it-works-box .how-it-works-box-inner .icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #141433;
+    margin: 0 auto 15px;
+    position: relative;
+}
+
+.how-it-works .how-it-works-box .how-it-works-box-inner .icon-box img {
+    padding: 30px;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.how-it-works .how-it-works-box .how-it-works-box-inner .icon-box .number-box {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background: #ba1c24;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+}
+
+.how-it-works .how-it-works-box .how-it-works-box-inner h6 {
+    margin-bottom: 15px;
+    font-size: 21px;
+}
+
+.how-it-works .how-it-works-box .how-it-works-box-inner p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+/*About Page css*/
+.xs-breadcrumblist {
+    list-style: none;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.xs-breadcrumblist>li:not(:last-child) {
+    padding-right: 13px;
+}
+
+.xs-breadcrumblist>li {
+    font-size: 1.125rem;
+    display: inline-block;
+}
+
+.xs-breadcrumblist>li>a {
+    color: inherit;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+    text-align: center;
+}
+
+.news {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.news:hover {
+    transform: translateY(-15px);
+}
+
+.news img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.news-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.news-text {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
